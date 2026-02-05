@@ -25,7 +25,7 @@ while True:
     ans = _zip_code.isdigit()
     if ans and len(_zip_code) >= 4:
         break
-
+        
 print()
 print(f"FOR: {_last_name},{_first_name}\n"
       f"COUNTRY: {_country.upper()}\n"
